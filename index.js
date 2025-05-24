@@ -69,6 +69,6 @@ app.post("/delete/:id", (req, res) => {
 
 
 app.listen(port , () =>{
-    console.log(`Server runing on port ${port} ....`)
+    console.log(`Server runing on port ${port} .....`)
 });
 
