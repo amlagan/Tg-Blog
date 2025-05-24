@@ -1,0 +1,27 @@
+
+body{
+  
+}
+input, textarea {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.button ,button{
+  padding: 0.5rem 1rem;
+  background-color: teal;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    
+}

@@ -1,0 +1,19 @@
+
+<%- include('partials/header.ejs') %>
+
+<h1>Edit Blog</h1>
+
+<div class="container ">
+  <form  action="/edit/<%= post.id %>" method="POST">
+
+    <label for="postTitle"></label>
+    <input id="postTitle" type="text" name="postTitle" placeholder="Title" value="<%= post.tilte %>" required>
+
+    <label for="postContent">Content</label>
+    <textarea id="postContent" name="postContent" placeholder="Your Inspiration..." rows="10" required><%= post.content %></textarea>
+    
+    <button type="submit">Save</button>
+  </form>
+</div>
+
+<%- include('partials/footer.ejs') %>

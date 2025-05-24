@@ -1,0 +1,36 @@
+
+<%- include('partials/header.ejs') %>
+
+<h1>Creer un nouvelle article Ici !!</h1>
+
+<div class="container ">
+    <form class="" action="/publication" method="POST">
+
+    <label for="postTitle">Title</label>
+    <input id="postTitle" type="text" name="postTitle" placeholder="Title" required>
+
+    <label for="postContent">Content</label>
+    <textarea id="postContent" name="postContent" placeholder="Your Inspiration..." rows="10" required></textarea>
+    
+    <button type="submit">Post</button>
+  </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include('partials/footer.ejs') %>

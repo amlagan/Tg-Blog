@@ -1,0 +1,21 @@
+body {
+  background: #c4c4c4;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  color: rgb(6, 30, 31);
+}
+
+html, body,main {
+    height: 100%;
+    margin: 0;
+  }
+
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .content-wrap {
+    flex: 1;
+  }
