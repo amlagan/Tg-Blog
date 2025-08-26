@@ -1,7 +1,5 @@
 
-body{
-  
-}
+
 input, textarea {
   width: 100%;
   margin: 1rem 0;
@@ -23,5 +21,6 @@ input, textarea {
 h2{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 26px;
+    height: 100vh;
     
 }
